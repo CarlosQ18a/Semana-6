@@ -88,9 +88,11 @@ docker build -t suda-frontend .
 
 <img src = "" width = "400">
 ## Paso 5: Ejecución del contenedor del frontend
+
 ```bash
-docker run -d -p 3000:80 suda-frontend
+ docker run -d -p 3000:80 suda-frontend
 ```
+
 <img src = "" width = "400">
 
 El puerto 3000 fue elegido para evitar conflictos con el puerto 8080 previamente ocupado.
